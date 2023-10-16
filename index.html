@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"> </script>
+    <script nomodule src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"> </script>
+    <title>Allyson Souza - Dev FullStack</title>
+</head>
+
+<body>
+
+    <div class="jl-trigger-topbar"></div>
+    <div class="border-top-left"></div>
+    <div class="border-bottom-right"></div>
+
+    <div class="jl-overlay jl-toggle-modal">
+    </div>
+
+    <div class="jl-menu-overlay jl-toggle-menu">
+    </div>
+
+    <div class="jl-modal jl-bg-black" id="jl-modal-orcamento">
+        <div class="jl-modal-header">
+            <h1 class="jl-title jl-text-green jl-mar-bot-15">Solicite um orçamento</h1>
+            <button class="jl-close-modal jl-toggle-modal">X</button>
+        </div>
+
+        <div class="jl-modal-body">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="jl-text-light">Por favor informe os dados abaixo e eu entrarei em contato o mais breve
+                        possível
+                    </p>
+                </div>
+            </div>
+
+            <div class="row jl-mar-top-15">
+                <div class="col-sm-12">
+                    <form class="jl-form">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6">
+                                <label for="Nome" class="jl-text-light">Nome</label>
+                                <input type="text" name="Nome" id="jl-nome" class="jl-field">
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="Email" class="jl-text-light">E-mail</label>
+                                <input type="email" name="Email" id="jl-email" class="jl-field">
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="Telefone" class="jl-text-light">Telefone</label>
+                                <input type="tel" name="Telefone" id="jl-telefone" class="jl-field">
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label for="Site" class="jl-text-light">Site</label>
+                                <input type="text" name="Site" id="jl-site" class="jl-field">
+                            </div>
+
+                            <div class="col-sm-12 col-md-12 jl-mar-top-15">
+                                <label for="Mensagem" class="jl-text-light">
+                                    Descreva abaixo o projeto na qual você precisa
+                                    de orçamento : </label>
+                                <textarea id="jl-mensagem" name="Mensagem" rows="8" class="jl-textarea"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-end jl-mar-top-15">
+                            <div class="col-sm-12 col-md-6">
+                                <button class="jl-btn jl-btn-large jl-btn-block jl-btn-green">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <header class="jl-topbar">
+        <nav class="jl-menu">
+            <a href="#">Início</a>
+            <a href="./pages/portfolio.html">Portfolio</a>
+            <a href="./pages/sobre.html">Mais sobre mim</a>
+        </nav>
+    </header>
+
+    <button class="jl-btn-menu-mob jl-toggle-menu">
+        <ion-icon name="menu-outline"></ion-icon>
+    </button>
+
+    <nav class="jl-menu-mob jl-menu-is-closed">
+        <a href="#">Home</a>
+        <a href="./pages/portfolio.html">Portfolio</a>
+        <a href="./pages/sobre.html">Sobre</a>
+    </nav>
+
+    <div class="jl-contact-info jl-bg-black jl-text-light">
+        <div class="jl-contact-info-inner">
+            <h2 class="jl-title jl-text-green">Contato</h2>
+            <p>allysonoliveirasouza@gmail.com</p>
+            <p>+55(11)95435-7910</p>
+            <div class="jl-social-links">
+                <a href="#" class="jl-social">
+                    <img src="./images/icon-instagram.svg" alt="icon-instagram">
+                </a>
+                <a href="#" class="jl-social">
+                    <img src="./images/icon-twitter.svg" alt="icon-twitter">
+                </a>
+                <a href="#" class="jl-social">
+                    <img src="./images/icon-dribbble.svg" alt="icon-dribbble">
+                </a>
+            </div>
+        </div>
+        <div class="jl-corner">
+
+        </div>
+    </div>
+
+    <button class="jl-btn-contact">
+
+    </button>
+
+    <div class="jl-page-wrapper">
+        <section class="jl-full-height jl-first-section jl-home-presentation " id="jl-home-presentation">
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div
+                        class="col-sm-12 col-md-10 offset-md-1 col-lg-4 offset-lg-1 offset-xl-3 col-xl-3 jl-display-text">
+                        <h1 class="jl-title jl-text-green jl-title-xlarge">
+                            Olá!
+                        </h1>
+                        <p class="jl-text-light"> Meu nome é <span class="jl-text-green al-negrito">Allyson Oliveira
+                                Souza</span>, te convido para conhecer um pouco sobre mim através deste portfolio.
+                            Seja
+                            muito bem vindo(a) </p>
+
+                        <button
+                            class="jl-btn jl-btn-large jl-btn-green jl-mar-bot-15 jl-toggle-modal jl-mar-top-15">Solicite
+                            um
+                            orçamento
+
+                        </button>
+                    </div>
+                    <div class="col-xl-3 jl-mar-top-30">
+                        <img src="./images/allyson-removebg.png" alt="" srcset="" class="allyson-imagem">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="jl-text-light">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="al-conteudo-sobre col-sm-10 offset-sm-1">
+                        <h2 class="jl-title jl-mar-bot-15 jl-mar-top-15 al-titulo-medio">Sobre mim</h2>
+                        <p>Atualmente cursando o 4°semestre em análise e desenvolvimento de sistemas pela estácio,
+                            possuo
+                            uma
+                            vivência na área de tecnologia atuando na área de suporte técnico,
+                            e estou em transição de carreira para
+                            a área de desenvolvimento.</p>
+                        <h2 class="jl-mar-top-15 al-titulo-medio jl-title">Linguagens de programação</h2>
+                        <ul class="jl-mar-top-15">
+                            <h3 class="jl-mar-bot-15">Front-end</h3>
+                            <li>Html</li>
+                            <li>Css</li>
+                            <li>Javascript</li>
+                            <li>Bootstrap</li>
+                        </ul>
+
+                        <ul class="jl-mar-top-15">
+                            <h3 class="jl-mar-bot-15">Backend</h3>
+                            <li>C#(.net,windows forms) </li>
+                            <li>Php</li>
+                            <li>Python</li>
+                            <li>Java</li>
+                        </ul>
+
+                        <ul class="jl-mar-top-15">
+                            <h3 class="jl-mar-bot-15">Banco de dados</h3>
+                            <li>Modelagem de dados</li>
+                            <li>SQL e MySQL</li>
+                        </ul>
+
+                        <ul class="jl-mar-top-15">
+                            <h3 class="jl-mar-bot-15">Outros conhecimentos</h3>
+                            <li>git e versionamento de código</li>
+                            <li>Programação orientada a objetos</li>
+                            <li>Montagem e manutenção de micros</li>
+                            <li>Conhecimento em Pacote Office</li>
+                        </ul>
+                        <h2 class="jl-mar-top-15 jl-mar-bot-15 al-titulo-medio jl-title">Soft Skills</h2>
+                        <ul>
+                            <li>Bom atendimento ao público</li>
+                            <li>Resiliência</li>
+                            <li>Bom relacionamento interpessoal</li>
+                            <li class="jl-mar-bot-15">Capacidade de adaptação à diversos ambientes</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="al-portfolio">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-8 offset-sm-2">
+                        <h1 class="jl-title jl-text-light jl-title-large jl-mar-top-60">Projetos realizados</h1>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="al-portfolio-item col-sm-12 jl-text-light">
+                        <h2 class="jl-title jl-title-large jl-text-green" id="titulo-portfolio">Simulador de venda de
+                            Veículo</h2>
+                        <p class="jl-text-center al-paragrafo-medio jl-mar-bot-30" id="descricao-portfolio">Projeto web,
+                            no qual é feita uma
+                            simulação da venda
+                            de um veículo.</p>
+                        <figure class="al-portfolio-imagem">
+                            <img src="./images/vistoriacarros.PNG" alt="" srcset="">
+                        </figure>
+                        <button class="al-botao-portfolio" id="btn-voltar"><ion-icon
+                                name="caret-back-outline"></ion-icon></button>
+                        <button class="al-botao-portfolio" id="btn-proximo"><ion-icon
+                                name="caret-forward-outline"></ion-icon></button>
+                        <div class="al-contador-portfolio">
+                            <h1 class="jl-text-center">Projeto n°</h1>
+                            <span class="jl-text-green" id="al-num-contador-portfolio">1</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"
+            integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/shortcuts/inview.min.js"
+            integrity="sha512-g6IhMPPqSSUgE+lYgBpdsXICK0fNhDlDDEuIbphNIKfPTYFD/1VcnxA+7pS9mibvzIb5SB0nNvii5M+yMwkcJA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script type="text/javascript" src="./js/anime.min.js"></script>
+
+        <script src="./js/slider.js"></script>
+        <script src="./js/portfolioItem.js"></script>
+        <script src="./js/main.js" type="text/javascript"> </script>
+        <!--    <script>
+            // Animando scroll com waypoints 
+            var MyScrollDown = document.querySelector('.jl-scroll-down')
+            var waypoint = new Waypoint({
+                element: MyScrollDown,
+                handler: function () {
+                    MyScrollDown.classList.toggle('jl-fade-out');
+                },
+                offset: '70%'
+            });
+        </script> -->
+</body>
+
+</html>
